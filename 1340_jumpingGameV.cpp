@@ -24,11 +24,12 @@ public:
     {
         n = arr.size();
         dp.resize(n, -1);
+        int result = 0;
         for (int i = 0; i < n; i++)
         {
-            calculate(arr, i, d);
+            result = max(result, calculate(arr, i, d));
         }
-        return *max_element(dp.begin(), dp.end());
+        return result;
     }
     int calculate(vector<int> &arr, int index, int d)
     {
