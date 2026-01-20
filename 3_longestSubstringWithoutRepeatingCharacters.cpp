@@ -21,6 +21,7 @@ public:
         unordered_map<char, int> frequency;
         for (int i = 0; i < l; i++)
         {
+            // better to use frequency than adding and deleting as it takes up extra time
             frequency[s[i]]++;
             while (frequency[s[i]] > 1)
             {
