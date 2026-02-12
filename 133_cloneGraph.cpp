@@ -53,13 +53,12 @@ public:
             return NULL;
         if (visited.count(node))
             return visited[node];
-        Node *thisNode = new Node(node->val);
-        visited[node] = thisNode;
-        for (Node *n : node->neighbors)
+        Node *head = new Node(node->val);
+        visited[node] = head;
+        for (Node *nodes : node->neighbors)
         {
-            Node *newNode = cloneGraph(n);
-            thisNode->neighbors.push_back(newNode);
+            head->neighbors.push_back(cloneGraph(nodes));
         }
-        return thisNode;
+        return head;
     }
 };
