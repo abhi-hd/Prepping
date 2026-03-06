@@ -11,6 +11,9 @@ Input: nums = [1,2,3,1]
 Output: 2
 Explanation: 3 is a peak element and your function should return the index number 2.
 */
+
+#include <bits/stdc++.h>
+using namespace std;
 class Solution
 {
 public:

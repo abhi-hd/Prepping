@@ -12,6 +12,9 @@ Given the integer array fruits, return the maximum number of fruits you can pick
 Input: fruits = [1,2,3,2,2]
 Output: 4
 */
+
+#include <bits/stdc++.h>
+using namespace std;
 class Solution
 {
 public:

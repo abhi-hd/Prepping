@@ -7,6 +7,9 @@ Input: num = 2736
 Output: 7236
 Explanation: Swap the number 2 and the number 7.
 */
+
+#include <bits/stdc++.h>
+using namespace std;
 class Solution
 {
 public:

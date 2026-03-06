@@ -4,6 +4,9 @@ Given an array of integers nums and an integer k, return the total number of sub
 A subarray is a contiguous non-empty sequence of elements within an array.
 -1000 <= nums[i] <= 1000
 */
+
+#include <bits/stdc++.h>
+using namespace std;
 class Solution
 {
 public:

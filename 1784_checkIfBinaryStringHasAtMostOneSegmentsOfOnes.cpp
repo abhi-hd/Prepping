@@ -13,6 +13,8 @@ Input: s = "110"
 Output: true
 */
 
+#include <bits/stdc++.h>
+using namespace std;
 class Solution
 {
 public:

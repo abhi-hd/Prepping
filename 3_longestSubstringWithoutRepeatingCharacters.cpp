@@ -13,6 +13,7 @@ Explanation: The answer is "abc", with the length of 3. Note that "bca" and "cab
 */
 
 #include <bits/stdc++.h>
+using namespace std;
 class Solution
 {
 public:

@@ -35,6 +35,9 @@ The score is the difference between the largest and smallest XOR value which is 
 We cannot obtain a smaller score than 0.
 
 */
+
+#include <bits/stdc++.h>
+using namespace std;
 class Solution
 {
 public:

@@ -15,6 +15,9 @@ Explanation: The maximum possible bitwise OR of a subset is 7. There are 6 subse
 - [2,5]
 - [2,1,5]
 */
+
+#include <bits/stdc++.h>
+using namespace std;
 class Solution
 {
 private:

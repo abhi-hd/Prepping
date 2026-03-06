@@ -19,6 +19,9 @@ Function 1 starts at the beginning of time 6, executes 1 unit of time, and ends 
 Function 0 resumes execution at the beginning of time 6 and executes for 2 units of time.
 So function 0 spends 2 + 4 + 1 = 7 units of total time executing, and function 1 spends 1 unit of total time executing.
 */
+
+#include <bits/stdc++.h>
+using namespace std;
 class Solution
 {
 public:

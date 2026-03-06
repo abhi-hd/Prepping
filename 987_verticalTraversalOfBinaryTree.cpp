@@ -22,6 +22,9 @@ Return the vertical order traversal of the binary tree.
 Input: root = [1,2,3,4,6,5,7]
 Output: [[4],[2],[1,5,6],[3],[7]]
 */
+
+#include <bits/stdc++.h>
+using namespace std;
 class Solution
 {
 private:

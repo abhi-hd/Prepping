@@ -18,6 +18,9 @@ Explanation:
 The maximum possible bitwise AND of a subarray is 3.
 The longest subarray with that value is [3,3], so we return 2.
 */
+
+#include <bits/stdc++.h>
+using namespace std;
 class Solution
 {
 public:

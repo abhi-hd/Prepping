@@ -11,6 +11,9 @@ Input: order = "cba", s = "abcd"
 
 Output: "cbad"
 */
+
+#include <bits/stdc++.h>
+using namespace std;
 class Solution
 {
 public:

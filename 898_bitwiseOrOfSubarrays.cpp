@@ -9,6 +9,9 @@ Input: arr = [0]
 Output: 1
 Explanation: There is only one possible result: 0.
 */
+
+#include <bits/stdc++.h>
+using namespace std;
 class Solution
 {
 public:

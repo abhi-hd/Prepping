@@ -8,6 +8,9 @@ You may return the answer in any order. The answer is guaranteed to be unique (e
 Input: points = [[3,3],[5,-1],[-2,4]], k = 2
 Output: [[3,3],[-2,4]]
 */
+
+#include <bits/stdc++.h>
+using namespace std;
 class Solution
 {
 public:

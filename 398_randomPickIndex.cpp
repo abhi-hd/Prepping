@@ -12,6 +12,9 @@ Input
 Output
 [null, 4, 0, 2]
 */
+
+#include <bits/stdc++.h>
+using namespace std;
 class Solution
 {
 private:

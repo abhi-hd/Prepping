@@ -17,6 +17,9 @@ Output: true
 Explanation: [2, 4] is a continuous subarray of size 2 whose elements sum up to 6.
 
 */
+
+#include <bits/stdc++.h>
+using namespace std;
 class Solution
 {
 public:
