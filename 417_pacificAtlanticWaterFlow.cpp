@@ -35,6 +35,15 @@ Output: [[0,0]]
 Explanation: The water can flow from the only cell to the Pacific and Atlantic oceans.
 
 */
+
+#include <bits/stdc++.h>
+using namespace std;
+/*
+Lessons:
+take two visited arrays, instead of state of visited as 0,1,2,3
+careful with start of dfs , 0, i , j, n-1, m-1 boundaries
+check if newx and new y are within bounds
+*/
 class Solution
 {
 public:

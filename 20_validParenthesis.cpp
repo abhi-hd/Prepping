@@ -41,6 +41,10 @@ Output: false
 
 #include <bits/stdc++.h>
 using namespace std;
+/*
+Lessons:
+The parenthesis should match too i.e ([)] is not valid
+*/
 class Solution
 {
 public:
