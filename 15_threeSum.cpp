@@ -31,6 +31,12 @@ Explanation: The only possible triplet sums up to 0.
 */
 #include <bits/stdc++.h>
 using namespace std;
+/*
+Lessons:
+one loop + two pointers sliding window
+when nums same, only one of the two pointers moved
+when loop next num is same , increment at end of loop
+*/
 class Solution
 {
 public:
