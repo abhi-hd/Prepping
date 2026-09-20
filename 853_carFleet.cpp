@@ -28,3 +28,30 @@ Explanation:
 */
 #include <bits/stdc++.h>
 using namespace std;
+
+class Solution
+{
+public:
+    int carFleet(int target, vector<int> &position, vector<int> &speed)
+    {
+        int n = position.size();
+        vector<vector<int>> pairs;
+        vector<double> time(n, 0);
+        for (int i = 0; i < n; i++)
+            pairs.push_back({position[i], speed[i]});
+        sort(pairs.begin(), pairs.end());
+        for (int i = 0; i < n; i++)
+            time[i] = (double)(target - pairs[i][0]) / pairs[i][1];
+        int result = 0;
+        double maxTime = -1;
+        for (int i = n - 1; i >= 0; i--)
+        {
+            if (time[i] > maxTime)
+            {
+                result++;
+                maxTime = time[i];
+            }
+        }
+        return result;
+    }
+};
